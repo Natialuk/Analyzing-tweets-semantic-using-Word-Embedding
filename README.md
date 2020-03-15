@@ -47,7 +47,7 @@ Training this model on a much larger dataset and combining it with a larger pre-
 
 
 
-Credit & Code References:
+## Credit & Code References:
 1. https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech#train.csv
 2. https://medium.com/r/?url=https%3A%2F%2Fnlp.stanford.edu%2Fprojects%2Fglove%2F
 3. https://medium.com/greyatom/an-introduction-to-bag-of-words-in-nlp-ac967d43b428
