@@ -32,6 +32,21 @@ https://medium.com/@natialuk/analyzing-tweets-semantic-using-word-embedding-9463
 13. from keras.utils: plot_model
 14. from gensim.models: Word2Vec
 
+## Results and model improvements:
+As you can see in the full code, starting from the forth epoch, I reached to 90% accuracy score. As the epochs are increasing the accuracy of the training score keeps rising, while the accuracy score on the validation set remains around 93% (not bad at all!), but I decided to stop here to prevent overfitting.
+
+Using the predict_classes() method I extracted the predicted labels and added them to the dataframe, to have a closer look at the results. The next thing I did to improve my model is to use a GloVe pre-trained Word Embadding, that been trained on milions of words.
+
+The results that I received on the same number of epochs are very close, but as you can see in the code output, it didn't reach its max potential and it can be trained over more epochs and to reach a higher accuracy score.
+The interesting thing to see is that even some of the tweets that were labeled wrong as hate tweets, has a pretty clear negative context.
+
+## Conclusions:
+My intent was training a model that will have the ability to analyze tweets and label them efficiently as hate and non-hate tweets. I decided to use Words Embedding and to train a Neural Networks model for this task. I explored 2 types of Words Embedding techniques which gave me a high accuracy score and seems to have great potential to even maximize it. 
+
+Training this model on a much larger dataset and combining it with a larger pre-trained word embedding, can take this model to the next level, I also recommend to try and play with the model's hyperparameters and test the results (even consider performing grid search if you have the computing power to do so). 
+
+
+
 Credit & Code References:
 1. https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech#train.csv
 2. https://medium.com/r/?url=https%3A%2F%2Fnlp.stanford.edu%2Fprojects%2Fglove%2F
