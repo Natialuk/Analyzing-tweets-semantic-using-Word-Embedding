@@ -4,6 +4,7 @@ Social media has changed the world and gave individuals the opportunity to be he
 This opportunity has its downsides too. The social media can provide a platform for spreading hate, racism, sexism and has a real potential of hurting people. Freedom of speech is important, but sometimes, detecting and preventing this type of content from being published is a must.
 
 Using Kaggle, I extracted this Tweets dataset:
+https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech#train.csv
 
 that are classified as hate tweets and regular tweets. In this case, hate tweets are considered as tweets with racist and sexist context. My intent is to train a model that will have the ability to analyze the tweet and label it efficiently.
 
