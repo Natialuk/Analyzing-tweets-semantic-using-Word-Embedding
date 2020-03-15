@@ -33,7 +33,7 @@ https://medium.com/@natialuk/analyzing-tweets-semantic-using-word-embedding-9463
 14. from gensim.models: Word2Vec
 
 ## Results and model improvements:
-As you can see in the full code, starting from the forth epoch, I reached to 90% accuracy score. As the epochs are increasing the accuracy of the training score keeps rising, while the accuracy score on the validation set remains around 93% (not bad at all!), but I decided to stop here at 50 epochs to prevent overfitting.
+As you can see in the full code, starting from the forth epoch, I reached to 90% accuracy score. As the epochs are increasing the accuracy of the training score keeps rising, while the accuracy score on the validation set remains around 93% (not bad at all!), but I decided to stop at 50 epochs to prevent overfitting.
 
 Using the predict_classes() method I extracted the predicted labels and added them to the dataframe, to have a closer look at the results. The next thing I did to improve my model is to use a GloVe pre-trained Word Embadding, that been trained on milions of words.
 
